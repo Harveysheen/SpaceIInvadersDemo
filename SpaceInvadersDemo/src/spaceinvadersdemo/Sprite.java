@@ -9,6 +9,14 @@ public class Sprite {
 	public int height;
 	public boolean isVisible;
 	
+	Sprite(int x, int y, int width, int height) {
+		this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
+        this.isVisible = true;
+	}
+	
 	public void collidesWith() {
 		
 	}
